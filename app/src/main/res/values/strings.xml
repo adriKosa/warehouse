@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Skladový poriadok</string>
+
+    <string name="insert_dummy_item_stock">Insert Dummy ItemStock</string>
+    <string name="insert_dummy_item_stock_attributes">Insert Dummy ItemStockAttributes</string>
+
+    <string name="item_stock">Item Stock</string>
+    <string name="item_stock_plural">Item Stocks</string>
+    <string name="item_stock_attributes">Item Stock Attributes</string>
+
+
+    <string name="count_data">Count data</string>
+
+    <string name="count">Count: </string>
+    <string name="empty_string" />
+    <string name="zero">0</string>
+    <string name="minus_one">-1</string>
+    <string name="clear_data">Clear ALL Data for Database</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_showShowStockItems">Zobraziť tovar</string>
+    <string name="btn_next">Ďalej</string>
+    <string name="btn_scan">Skenovat</string>
+    <string name="btn_add">Pridať položku</string>proposal
+    <string name="btn_store">Naskladniť tovar</string>
+    <string name="btn_add_new_idem">Pridať nový tovar</string>
+    <string name="btn_add_customer">Pridať zákazníka</string>
+    <string name="btn_edit_customer">Upraviť zákazníka</string>
+    <string name="btn_delete_customer">Vymazať zákazníka</string>
+    <string name="btn_make_order">Spraviť objednávku</string>
+    <string name="btn_prepare_order">Pripraviť objednávku</string>
+    <string name="btn_prepared">Pripravené</string>
+    <string name="btn_send_order">Odoslať objednávku</string>
+    <string name="btn_archive_orders">Archívne objednávky</string>
+    <string name="btn_delete">Vymazať položku</string>
+    <string name="btn_showStockItemAtributes">Zobraziť naskladnený tovar</string>
+
+
+    <!-- EDIT TEXTS -->
+    <string name="edit_name">Názov</string>
+    <string name="edit_customer_name">Meno</string>
+    <string name="edit_barcode">Čiarový kód</string>
+    <string name="edit_description">Popis</string>
+    <string name="edit_quantity">Množstvo</string>
+    <string name="edit_weight">Hmotnosť(kg)</string>
+    <string name="edit_expire">Trvanlivosť</string>
+    <string name="edit_location">Umiestnenie</string>
+    <string name="edit_number">Telefón</string>
+    <string name="edit_address">Adresa</string>
+
+    <!-- TEXT VIEWS -->
+    <string name="text_onStore">Naskladnený tovar</string>
+    <string name="text_item">Tovar</string>
+    <string name="text_amount_on_store">Zostatok na sklade(ks):</string>
+    <string name="text_wellcome">Vitaj v aplikacii Skladovy poriadok</string>
+
+    <!-- TOAST MESSEGES -->
+    <string name="toast_customer_add">Bol pridaný nový zákazník</string>
+    <string name="toast_customer_name">Políčko meno nemôže byť prázdne</string>
+    <string name="toast_customer_number">Políčko telefón nemôže byť prázdne</string>
+    <string name="toast_customer_address">Políčko adresa nemôže byť prázdne</string>
+
+    <!-- NAVIGATION -->
+    <string name="navigation_drawer_open">Otvorit</string>
+    <string name="navigation_drawer_close">Zatvorit</string>
+    <string name="toolbar_items">Práca s tovarom</string>
+    <string name="open">otvorit</string>
+    <string name="close">zatvorit</string>
+    <string name="toolbar_home">DOMOV</string>
+    <string name="toolbar_orders">Objednávky</string>
+    <string name="toolbar_add_edit_customer">Pridať/Editovať zákazníka</string>
+
+
+
+</resources>

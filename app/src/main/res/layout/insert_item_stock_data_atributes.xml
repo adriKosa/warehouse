@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <EditText
+        android:id="@+id/quantityItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:hint="@string/edit_quantity"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/weightItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/quantityItem"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="@string/edit_weight"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/expireItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/quantityItem"
+        android:layout_marginTop="189dp"
+        android:clickable="true"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/edit_expire" />
+
+    <EditText
+        android:id="@+id/locationItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/quantityItem"
+        android:layout_marginBottom="204dp"
+        android:ems="10"
+        android:hint="@string/edit_location"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/storeItem"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/quantityItem"
+        android:layout_marginBottom="70dp"
+        android:text="@string/btn_store" />
+
+    <TextView
+        android:id="@+id/selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:text=""
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/selected"
+        android:layout_centerHorizontal="true"
+        android:text="@string/empty_string"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</RelativeLayout>

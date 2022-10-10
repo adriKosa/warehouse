@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnMakeOrder"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/btn_add_new_idem"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/showShowStockItems"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMakeOrder"
+        android:layout_marginBottom="128dp"
+        android:text="@string/btn_showShowStockItems"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/showStockItemAtributes"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/showShowStockItems"
+        android:layout_marginRight="10dp"
+        android:text="@string/btn_showStockItemAtributes"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/btnInsertDummyItemStockAttributes"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnMakeOrder"
+        android:layout_marginRight="10dp"
+        android:text="@string/btn_store"
+        android:textSize="19sp" />
+</RelativeLayout>
